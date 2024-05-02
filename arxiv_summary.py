@@ -90,7 +90,7 @@ parameters = {
 }
 
 bart_api_url = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer "} # here insert the HuggingFace token after Bearer
 # Fetching data from the API into XML format. The whole thing is wrapped in a try-except block to accomodate logging.
 max_attempts = 5
 attempt = 0
